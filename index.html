@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MokaApp | Oferte, Reduceri și Coșuri Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Hero Section -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-orange-600 tracking-tighter">Moka<span class="text-gray-800">App</span></h1>
+            <nav>
+                <a href="#privacy" class="text-sm font-medium text-gray-500 hover:text-gray-900">Legal & Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-16 sm:py-24">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">Toate reducerile din supermarket.<br>Într-un singur loc.</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">Kaufland, Lidl, Mega Image, Carrefour, Auchan și Penny. Monitorizăm zilnic mii de oferte și folosim AI pentru a-ți construi coșuri de cumpărături inteligente.</p>
+            <span class="inline-block bg-orange-100 text-orange-800 text-sm font-semibold px-4 py-2 rounded-full">Disponibil în curând pe Google Play</span>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 text-center mb-24">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <div class="text-3xl mb-4">🛒</div>
+                <h3 class="font-bold text-xl mb-2">Agregare Zilnică</h3>
+                <p class="text-gray-500 text-sm">Nu mai pierde timpul printre cataloage de hârtie. Aducem promoțiile la tine pe telefon.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <div class="text-3xl mb-4">🤖</div>
+                <h3 class="font-bold text-xl mb-2">Coșuri AI</h3>
+                <p class="text-gray-500 text-sm">Inteligența artificială îți sugerează rețete și coșuri tematice bazate strict pe cele mai mari reduceri.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <div class="text-3xl mb-4">⚡</div>
+                <h3 class="font-bold text-xl mb-2">Alerte Smart</h3>
+                <p class="text-gray-500 text-sm">Salvează produsele favorite și primești notificare în secunda în care intră la reducere.</p>
+            </div>
+        </div>
+
+        <!-- Privacy Policy & Legal Section -->
+        <section id="privacy" class="bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-gray-100 text-left">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Politica de Confidențialitate și Termeni de Utilizare</h2>
+            
+            <div class="space-y-6 text-sm text-gray-600">
+                <div>
+                    <h4 class="font-bold text-gray-800 text-base mb-2">1. Scopul Aplicației și Declinarea Responsabilității (Disclaimer)</h4>
+                    <p>MokaApp este un instrument independent de agregare a ofertelor publice. Aplicația <strong>NU este afiliată, asociată, autorizată, sponsorizată sau aprobată în niciun fel</strong> de către Kaufland, Lidl, Mega Image, Auchan, Carrefour, Penny sau orice alt retailer menționat. Toate denumirile de produse, logo-urile și mărcile comerciale sunt proprietatea respectivilor deținători. Utilizarea acestora în cadrul Aplicației se face exclusiv în scop de identificare și informare (Nominative Fair Use). Prețurile au caracter informativ.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-800 text-base mb-2">2. Colectarea și Utilizarea Datelor (Privacy Policy)</h4>
+                    <p>Respectăm principiul minimizării datelor (GDPR). <strong>Nu colectăm date cu caracter personal</strong> care te pot identifica direct (Nume, Email, Număr de telefon). Aplicația folosește infrastructura Google Firebase și colectează automat:</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1">
+                        <li><strong>Identificatori de Dispozitiv & FCM Tokens:</strong> Pentru funcționarea alertelor de preț. Autentificare complet anonimă (Firebase Anonymous Auth).</li>
+                        <li><strong>Crash Logs (Crashlytics):</strong> Pentru a identifica erorile tehnice de cod.</li>
+                        <li><strong>Analytics:</strong> Date anonimizate de interacțiune pentru îmbunătățirea experienței.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-800 text-base mb-2">3. Securitatea și Ștergerea Datelor</h4>
+                    <p>Toate datele sunt criptate în tranzit (HTTPS). Nu vindem (Not Sold) datele tale. Poți șterge orice date asociate dispozitivului tău prin simpla dezinstalare a aplicației sau prin ștergerea cache-ului din setările telefonului tău.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-800 text-base mb-2">4. Contact</h4>
+                    <p>Pentru asistență tehnică sau sesizări (inclusiv DMCA): <a href="mailto:suport@mokaapp.ro" class="text-orange-600 font-medium">suport@mokaapp.ro</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+        <p>&copy; 2026 MokaApp. Toate drepturile rezervate. Un proiect independent.</p>
+    </footer>
+
+</body>
+</html>
